@@ -1,0 +1,13 @@
+package br.com.cod3r.decorator.coffeeShop.model;
+
+public class Milk implements Drink {
+    @Override
+    public void serve() {
+        System.out.println("- Adding 30ml of milk");
+    }
+
+    @Override
+    public Double getPrice() {
+        return 1.0;
+    }
+}
